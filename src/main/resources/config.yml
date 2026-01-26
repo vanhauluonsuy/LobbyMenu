@@ -1,0 +1,36 @@
+items:
+  chuyen_xu:
+    material: CHEST
+    slot: 2
+    name: "&6&lChuyển Xu"
+    lore:
+      - "&7Nhấn để chuyển xu"
+    cooldown: 5
+    commands:
+      - "chuyenxu"
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    particle: VILLAGER_HAPPY
+
+  play:
+    material: TOTEM_OF_UNDYING
+    slot: 4
+    name: "&a&lPlay"
+    lore:
+      - "&7Vào chế độ chơi"
+    cooldown: 3
+    commands:
+      - "play"
+    sound: UI_BUTTON_CLICK
+    particle: CRIT
+
+  info:
+    material: BELL
+    slot: 6
+    name: "&b&lInfo"
+    lore:
+      - "&7Thông tin server"
+    cooldown: 5
+    commands:
+      - "info"
+    sound: BLOCK_BELL_USE
+    particle: ENCHANTMENT_TABLE

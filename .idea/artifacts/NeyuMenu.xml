@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="NeyuMenu">
+    <output-path>$PROJECT_DIR$/out/artifacts/NeyuMenu</output-path>
+    <root id="archive" name="NeyuMenu.jar">
+      <element id="module-output" name="NeyuMenu" />
+    </root>
+  </artifact>
+</component>

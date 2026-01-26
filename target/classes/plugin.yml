@@ -1,0 +1,14 @@
+name: NeyuMenu
+version: 1.0
+main: me.neyucity.project.neyumenu.NeyuMenu
+api-version: '1.20'
+
+commands:
+  neyumenu:
+    description: NeyuMenu command
+    usage: /neyumenu reload
+    permission: neyumenu.admin
+
+permissions:
+  neyumenu.admin:
+    default: op
