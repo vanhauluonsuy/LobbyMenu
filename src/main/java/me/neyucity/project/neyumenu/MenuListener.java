@@ -23,7 +23,6 @@ public class MenuListener implements Listener {
         this.plugin = plugin;
     }
 
-    /* ===== JOIN GIVE ITEM ===== */
     @EventHandler
     public void onJoin(PlayerJoinEvent e) {
         Bukkit.getScheduler().runTaskLater(plugin, () -> giveMenuItems(e.getPlayer()), 10L);
@@ -56,7 +55,6 @@ public class MenuListener implements Listener {
         }
     }
 
-    /* ===== CLICK ITEM ===== */
     @EventHandler
     public void onInteract(PlayerInteractEvent e) {
         if (!e.hasItem()) return;
@@ -90,7 +88,7 @@ public class MenuListener implements Listener {
         }
     }
 
-    /* ===== BLOCK DROP & MOVE ===== */
+    
     @EventHandler
     public void onDrop(PlayerDropItemEvent e) {
         if (isMenuItem(e.getItemDrop().getItemStack())) e.setCancelled(true);
